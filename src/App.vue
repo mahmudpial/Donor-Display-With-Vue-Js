@@ -3,7 +3,13 @@
     <div class="container">
       <!-- Header -->
       <header class="header">
-          <img class="logo" src="/public/assets/images/logo.png" alt="Blood Donation logo" />
+         
+          <!-- Image via CDN -->
+    <img 
+      src="https://cdn-icons-png.flaticon.com/512/2966/2966487.png" 
+      width="120"
+      alt="Blood Donation"
+    />
         <h1>Blood Donation Management System</h1>
          <!-- HTML message -->
          <p v-html="htmlMessage"></p>
